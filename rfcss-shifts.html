@@ -4,11 +4,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <title>reveal.js</title>
+    <title>RFCSS Shifts App</title>
+
+    <meta name="description" content="An introduction to the new RFCSS Shifts App, for managing HCA shifts.">
+    <meta name="author" content="Philippe Nadon">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     <link rel="stylesheet" href="dist/reset.css">
     <link rel="stylesheet" href="dist/reveal.css">
-    <link rel="stylesheet" href="dist/theme/white.css" id="theme">
+    <link rel="stylesheet" href="dist/theme/black.css" id="theme">
 
     <!-- Theme used for syntax highlighted code -->
     <link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
@@ -47,21 +53,35 @@
               - How these issues are addressed
             </textarea>
           </section>
-          <section data-markdown>
-            <textarea data-template>
-              ## Issues that are addressed
-              - Human error
-              - Only available sometimes
-              - Physical location
-            </textarea>
+          <section >
+            <h2>Issues that are addressed</h3>
+            <div class="r-hstack">
+            <ul style="font-weight: bold" class="fragment">
+                <li>Human error</li>
+                <li>Only available sometimes</li>
+                <li>Physical location</li>
+              </ul>
+              <ul class="fragment" style="list-style:none">
+                <li> → eg. wrong name</li>
+                <li> → (Mon-Fri: 8:30-12:00, 1:00-4:30)</li>
+                <li> → access only in FCSS office</li>
+              </ul>
+            </div>
           </section>
-          <section data-markdown>
-            <textarea data-template>
-              ## How these issues are addressed
-              - Reducing errors
-              - Ease of Access
-              - Portability
-            </textarea>
+          <section >
+            <h2>How these issues are addressed</h3>
+            <div class="r-hstack">
+            <ul style="font-weight: bold" class="fragment">
+                <li>Reduced errors</li>
+                <li>Access anytime</li>
+                <li>Access anywhere</li>
+              </ul>
+              <ul class="fragment" style="list-style:none">
+                <li> → App checks for correctness</li>
+                <li> → App runs 24/7</li>
+                <li> → Just go online!</li>
+              </ul>
+            </div>
           </section>
         </section>
         <section>
@@ -74,26 +94,34 @@
               - Getting added to the Allowed List
             </textarea>
           </section>
-          <section data-markdown>
-            <textarea data-template>
-              ## Website address 
-              - App is at [rfcss-shifts.netlify.app](https://rfcss-shifts.netlify.app/)
-            </textarea>
+          <section data-background-iframe="https://rfcss-shifts.netlify.app" data-background-interactive>
+            <div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.5); background-color: rgba(0, 0, 0, 0.85); color: #fff; padding: 20px; font-size: 40px; text-align: left; border-radius: 25px;">
+              <p>Access the app at: <a href="https://rfcss-shifts.netlify.app/">rfcss-shifts.netlify.app</a></p>
+            </div>
           </section>
-          <section data-markdown>
-            <textarea data-template>
-              ## Creating an Account
-            </textarea>
+          <section data-background-video="media/creating_account.mp4" data-background-video-loop>
+            <div style="position: absolute; width: 40%; right: 0; top: 300px; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.5); background-color: rgba(0, 0, 0, 0.85); color: #fff; padding: 20px; font-size: 40px; text-align: left; border-radius: 25px;">
+              <p>Create an Account</p>
+            </div>
           </section>
-          <section data-markdown>
-            <textarea data-template>
-              ## Verifying your email
-            </textarea>
+          <section data-background="https://media.giphy.com/media/RHlm0r4VlDCgg/giphy.gif">
+            <div style="margin:auto; width: 80%; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.5); background-color: rgba(0, 0, 0, 0.85); color: #fff; padding: 20px; font-size: 40px; text-align: center; border-radius: 25px;">
+              <h2>Get added to allowed accounts</h2>
+              <ol>
+                <li>Call a staff member</li>
+                <li>Wait ~15 mins</li>
+              </ol>
+            </div>
           </section>
-          <section data-markdown>
-            <textarea data-template>
-              ## Getting added to the Allowed List
-            </textarea>
+          <section data-background="media/verif.gif">
+            <div style="position: absolute; width: 40%; right: 0; top: 300px; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.5); background-color: rgba(0, 0, 0, 0.85); color: #fff; padding: 20px; font-size: 40px; text-align: left; border-radius: 25px;">
+              <p>Verify your account</p>
+            </div>
+          </section>
+          <section data-background-video="media/end.mp4" data-background-video-loop>
+            <div style="position: absolute; width: 40%; right: 0; top: 300px; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.5); background-color: rgba(0, 0, 0, 0.85); color: #fff; padding: 20px; font-size: 40px; text-align: left; border-radius: 25px;">
+              <p>Log in again... and done!</p>
+            </div>
           </section>
         </section>
         <section>
@@ -104,15 +132,15 @@
               - Schedule
             </textarea>
           </section>
-          <section data-markdown>
-            <textarea data-template>
-              ## Available Shifts
-            </textarea>
+          <section data-background="media/offered_shifts.png">
+            <div style="position: absolute; width: 40%; right: 0; top: -300px; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.5); background-color: rgba(0, 0, 0, 0.85); color: #fff; padding: 20px; font-size: 40px; text-align: left; border-radius: 25px;">
+              <p>Available shifts section</p>
+            </div>
           </section>
-          <section data-markdown>
-            <textarea data-template>
-              ## Schedule
-            </textarea>
+          <section data-background-video="media/viewing_schedule.mp4" data-background-video-loop>
+            <div style="position: absolute; width: 40%; right: 0; top: -300px; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.5); background-color: rgba(0, 0, 0, 0.85); color: #fff; padding: 20px; font-size: 40px; text-align: left; border-radius: 25px;">
+              <p>Schedule section</p>
+            </div>
           </section>
         </section>
         <section>
@@ -132,16 +160,16 @@
               4. Site is updated
             </textarea>
           </section>
-          <section data-markdown>
-            <textarea data-template>
-              ## How to submit
-            </textarea>
+          <section data-background-video="media/submit_shift.mp4" data-background-video-loop>
+            <div style="position: absolute; width: 40%; right: 0; top: 0px; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.5); background-color: rgba(0, 0, 0, 0.85); color: #fff; padding: 20px; font-size: 40px; text-align: left; border-radius: 25px;">
+              <p>How to submit</p>
+            </div>
           </section>
           <section data-markdown>
             <textarea data-template>
               ## Status of your request
               - Email once processed
-              - Delay
+              - Delay (~15min)
               - Site updated
             </textarea>
           </section>
@@ -155,12 +183,13 @@
               - Learning to use something new
             </textarea>
           </section>
-          <section data-markdown>
-            <textarea data-template>
-              ## Reliability of the site
-              - Site development is in-progress!
-              - **YOU** can help us build it!
-            </textarea>
+          <section>
+            <h2>Reliability of the site</h2>
+            <ul>
+              <li>Site development is in-progress!</li>
+              <li><b>YOU</b> can help us build it!</li>
+            </ul>
+            <img src="media/in_progress.svg" height="450">
           </section>
           <section data-markdown>
             <textarea data-template>
