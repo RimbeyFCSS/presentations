@@ -1,0 +1,303 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>RFCSS Shifts App</title>
+
+    <meta name="description" content="An introduction to the new RFCSS Shifts App, for managing HCA shifts.">
+    <meta name="author" content="Philippe Nadon">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <section data-markdown>
+            <textarea data-template>
+              Introduction to the
+              # RFCSS Shifts App
+              **Presented by: Philippe Nadon**
+
+              Follow along at: [bit.ly/rfcss-pres](https://bit.ly/rfcss-pres)
+            </textarea>
+          </section>
+          <section data-markdown>
+            <textarea data-template>
+              ## Content Covered
+              - Comparison to current system
+              - Accessing the app
+              - Viewing shifts
+              - Submitting changes
+              - Summary
+              - Demo & Q / A
+            </textarea>
+          </section>
+        </section>
+        <section>
+          <section data-markdown>
+            <textarea data-template>
+              # Comparison to current system
+              - What is the RFCSS Shifts App?
+              - Issues that are addressed
+              - How these issues are addressed
+            </textarea>
+          </section>
+          <section >
+            <h2>What is the RFCSS Shifts App?</h2>
+            <div class="r-hstack">
+              <img src="media/whiteboard.jpeg" >
+              <img src="media/app_pic.png" >
+            </div>
+          </section>
+          <section >
+            <h2>Issues that are addressed</h2>
+            <div class="r-hstack">
+            <ul style="font-weight: bold">
+                <li class="fragment" data-fragment-index="1">
+                  Human error
+                </li>
+                <li class="fragment" data-fragment-index="2">
+                  Only available sometimes
+                </li>
+                <li class="fragment" data-fragment-index="3">
+                  Physical location
+                </li>
+              </ul>
+              <ul style="list-style:none">
+                <li  class="fragment" data-fragment-index="1">
+                   → eg. wrong name
+                </li>
+                <li  class="fragment" data-fragment-index="2">
+                   → (Mon-Fri: 8:30-12:00, 1:00-4:30)
+                </li>
+                <li  class="fragment" data-fragment-index="3">
+                   → access only in FCSS office
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section >
+            <h2>How these issues are addressed</h2>
+            <div class="r-hstack">
+              <ul style="font-weight: bold">
+                <li class="fragment" data-fragment-index="1">
+                  Reduced errors
+                </li>
+                <li class="fragment" data-fragment-index="2">
+                  Access anytime
+                </li>
+                <li class="fragment" data-fragment-index="3">
+                  Access anywhere
+                </li>
+              </ul>
+              <ul style="list-style:none">
+                <li  class="fragment" data-fragment-index="1">
+                   → App checks for correctness
+                </li>
+                <li  class="fragment" data-fragment-index="2">
+                   → App runs 24/7
+                </li>
+                <li  class="fragment" data-fragment-index="3">
+                   → Just go online!
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section>
+          <section data-markdown>
+            <textarea data-template>
+              # Accessing the app
+              - Website address
+              - Creating an account
+              - Verifying your email
+              - Getting added to the Allowed List
+            </textarea>
+          </section>
+          <section data-background-iframe="https://rfcss-shifts.netlify.app" data-background-interactive>
+            <div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.5); background-color: rgba(0, 0, 0, 0.85); color: #fff; padding: 20px; font-size: 40px; text-align: left; border-radius: 25px;">
+              <p>Access the app at: <a href="https://rfcss-shifts.netlify.app/">rfcss-shifts.netlify.app</a></p>
+            </div>
+          </section>
+          <section data-background-video="media/creating_account.mp4" data-background-video-loop>
+            <div style="position: absolute; width: 40%; right: 0; top: 300px; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.5); background-color: rgba(0, 0, 0, 0.85); color: #fff; padding: 20px; font-size: 40px; text-align: left; border-radius: 25px;">
+              <p>Create an Account</p>
+            </div>
+          </section>
+          <section data-background="https://media.giphy.com/media/RHlm0r4VlDCgg/giphy.gif">
+            <div style="margin:auto; width: 80%; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.5); background-color: rgba(0, 0, 0, 0.85); color: #fff; padding: 20px; font-size: 40px; text-align: center; border-radius: 25px;">
+              <h2>Get added to allowed accounts</h2>
+              <ol>
+                <li>Call a staff member</li>
+                <li>Wait ~15 mins</li>
+              </ol>
+            </div>
+          </section>
+          <section data-background="media/verif.gif">
+            <div style="position: absolute; width: 40%; right: 0; top: 300px; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.5); background-color: rgba(0, 0, 0, 0.85); color: #fff; padding: 20px; font-size: 40px; text-align: left; border-radius: 25px;">
+              <p>Verify your account</p>
+            </div>
+          </section>
+          <section data-background-video="media/end.mp4" data-background-video-loop>
+            <div style="position: absolute; width: 40%; right: 0; top: 300px; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.5); background-color: rgba(0, 0, 0, 0.85); color: #fff; padding: 20px; font-size: 40px; text-align: left; border-radius: 25px;">
+              <p>Log in again... and done!</p>
+            </div>
+          </section>
+        </section>
+        <section>
+          <section data-markdown>
+            <textarea data-template>
+              # Viewing shifts
+              - Offered Shifts
+              - Navigating Schedule
+              - Red / Blue names in Schedule
+            </textarea>
+          </section>
+          <section data-background="media/offered_shifts.png">
+            <div style="position: absolute; width: 40%; right: 0; top: -300px; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.5); background-color: rgba(0, 0, 0, 0.85); color: #fff; padding: 20px; font-size: 40px; text-align: left; border-radius: 25px;">
+              <p>Offered shifts section</p>
+            </div>
+          </section>
+          <section data-background-video="media/viewing_schedule.mp4" data-background-video-loop>
+            <div style="position: absolute; width: 40%; right: 0; top: -300px; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.5); background-color: rgba(0, 0, 0, 0.85); color: #fff; padding: 20px; font-size: 40px; text-align: left; border-radius: 25px;">
+              <p>Navigating Schedule</p>
+            </div>
+          </section>
+          <section>
+            <h2>Red / Blue names in Schedule</h2>
+            <p>Red = offered, Blue = replacment</p>
+            <div class="r-hstack">
+              <ul>
+                <li>Eg. (1): Brenda is offering Block D on June 24</li>
+                <li>Eg. (2): Pam is the replacement on Block E, June 23</li>
+              </ul>
+              <img src="media/colored_names.png" >
+            </div>
+            <div class="r-hstack">
+              
+            </div>
+          </section>
+        </section>
+        <section>
+          <section data-markdown>
+            <textarea data-template>
+              # Submitting changes
+              - How the submission works
+              - How to submit
+              - Status of your request
+            </textarea>
+          </section>
+          <section data-markdown>
+            <textarea data-template>
+              ## How the submission works
+              1. Request is sent
+              2. Request processed by administration
+              4. Site is updated
+            </textarea>
+          </section>
+          <section data-background-video="media/submit.mp4" data-background-video-loop>
+            <div style="position: absolute; width: 40%; right: 0; top: 0px; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.5); background-color: rgba(0, 0, 0, 0.85); color: #fff; padding: 20px; font-size: 40px; text-align: left; border-radius: 25px;">
+              <p>How to submit</p>
+            </div>
+          </section>
+          <section data-markdown>
+            <textarea data-template>
+              ## Status of your request
+              - Email once processed
+              - Delay (~15min)
+              - Site updated
+            </textarea>
+          </section>
+        </section>
+        <section>
+          <section data-markdown>
+            <textarea data-template>
+              # Summary
+              - What to keep in mind
+              - Timeline
+            </textarea>
+          </section>
+          <section>
+            <h2>What to keep in mind</h2>
+            <div class="r-hstack">
+              <ul style="font-weight: bold" class="fragment">
+                  <li>Big changes</li>
+                  <li>Shift responsibility</li>
+                  <li>Site reliability</li>
+                </ul>
+                <ul class="fragment" style="list-style:none">
+                  <li> → Patience & communication</li>
+                  <li> → Still yours till taken!</li>
+                  <li> → You can help improve it!</li>
+                </ul>
+              </div>
+              <img src="media/in_progress.svg" height="400">
+          </section>
+          <section>
+            <h2>Timeline</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Milestone</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Early July</td>
+                  <td>Finished training, start testing</td>
+                </tr>
+                <tr>
+                  <td>Late July</td>
+                  <td>HCA staff accustomed to new system</td>
+                </tr>
+                <tr>
+                  <td>Start of Aug</td>
+                  <td>Full transition to new system</td>
+                </tr>
+                <tr>
+                  <td>End of Aug</td>
+                  <td>Final version of system</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+        </section>
+        <section>
+          <section data-markdown>
+            <textarea data-template>
+              # Demo & Q / A
+            </textarea>
+          </section>
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+      });
+    </script>
+  </body>
+</html>
